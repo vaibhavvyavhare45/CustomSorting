@@ -18,6 +18,7 @@ public Employee(int id, String name, String city) {
 public String toString() {
 	return "Employee [id=" + id + ", name=" + name + ", City=" + city + "]";
 }
+}
  class EmployeeIdComparator implements Comparator<Employee>{
 
 	@Override
@@ -54,4 +55,4 @@ class EmployeeCityComparator implements Comparator<Employee>{
 
 
 	
-}
+
